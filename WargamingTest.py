@@ -15,5 +15,7 @@ while i < 4:
 
 print(all_ships)
 
+# test if the data is correct
+
 for ship in all_ships:
     print("name: %s, nation: %s, type: %s, tier: %d" % (ship["name"], ship["nation"], ship["type"], ship["tier"]))
